@@ -1,9 +1,4 @@
-```
-Name: KEERTHANA S
-Reg No : 212222240070
-```
 # EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED INTERFACE WITH ARM CONTROLLER AND PROTEUS 
-
 ## Aim: To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM development board , and simulate it in Proteus 
 ## Components required: STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory 
@@ -32,7 +27,7 @@ interfaces Datasheet - production data Features
 
 ![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
 
-4.select the program name <br>
+4.select the program name 
 ![image](https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png)
 
 
@@ -68,15 +63,15 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 ![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
 
-15. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.<br>
+14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 ![image](https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png)
-16. click on debug and simulate using simulation as shown below 
+15. click on debug and simulate using simulation as shown below 
 
 ![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
 
 
 ## STM 32 CUBE PROGRAM :
-~~~c
+```
 #include "main.h"
 #include "stdbool.h"
 void push_button();
@@ -179,19 +174,16 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
 }
 #endif
-~~~
+
+```
+
+
+
 
 ## Output screen shots of proteus  :
-## LED OFF:
-![op_1](https://github.com/Yuvadarshini-Sathiyamoorthy/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/93482485/a45cdf4f-06fd-43e5-864a-8f81782cc6e3)
 
-
-## LED ON:
-![op_2](https://github.com/Yuvadarshini-Sathiyamoorthy/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/93482485/64ffba62-e43a-40ae-a8da-2ae6fa0b7fdb)
-
-
-## Proteus layout(Add pdf screen shot of circuit here)
- ![exp_3_layout](https://github.com/Yuvadarshini-Sathiyamoorthy/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/93482485/5c051b50-5360-4a6d-a02c-f486d4785743)
+![sam 1](https://github.com/user-attachments/assets/e73a1cde-b2fa-40f5-87c2-47697365dc18)
+![sam 2](https://github.com/user-attachments/assets/cc5f1160-90ed-4f1d-8d53-dd374ebcf3aa)
 
  
  
